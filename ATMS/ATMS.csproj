@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Migrations\001_initial_schema.sql" />
+    <None Remove="Migrations\002_add_student_details.sql" />
+    <None Remove="Migrations\003_clear_test_data.sql" />
+    <None Remove="Migrations\004_academic_history.sql" />
+    <None Remove="Migrations\005_rebuild_fee_tables.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\001_initial_schema.sql" />
+    <EmbeddedResource Include="Migrations\002_add_student_details.sql" />
+    <EmbeddedResource Include="Migrations\003_clear_test_data.sql" />
+    <EmbeddedResource Include="Migrations\004_academic_history.sql" />
+    <EmbeddedResource Include="Migrations\005_rebuild_fee_tables.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.89" />
+    <PackageReference Include="dbup-postgresql" Version="7.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.14" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.14" />
+    <PackageReference Include="Npgsql" Version="10.0.3" />
+    <PackageReference Include="Polly" Version="8.9.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
