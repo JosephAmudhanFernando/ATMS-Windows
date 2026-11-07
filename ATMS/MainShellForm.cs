@@ -9,6 +9,8 @@ namespace ATMS
         public MainShellForm()
         {
             InitializeComponent(); // Visual Studio handles the UI here
+            // Only show the Settings button to the ATMS master user
+            btnSettings.Visible = Core.UserSession.Username.Equals("atms", StringComparison.OrdinalIgnoreCase);
         }
 
         // The View-Swapping Engine
@@ -30,6 +32,12 @@ namespace ATMS
         {
             var feeControl = Program.ServiceProvider.GetRequiredService<FeeCollectionControl>();
             LoadView(feeControl);
+        }
+
+        private void btnSettings_Click(object sender, EventArgs e)
+        {
+            var settingsControl = Program.ServiceProvider.GetRequiredService<UserManagementControl>();
+            LoadView(settingsControl);
         }
     }
 }

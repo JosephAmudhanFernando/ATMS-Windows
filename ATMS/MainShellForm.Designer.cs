@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             pnlSidebar = new Panel();
+            btnSettings = new Button();
             btnDashboard = new Button();
             btnFees = new Button();
             btnStudents = new Button();
@@ -40,6 +41,7 @@
             // pnlSidebar
             // 
             pnlSidebar.BackColor = Color.FromArgb(30, 42, 56);
+            pnlSidebar.Controls.Add(btnSettings);
             pnlSidebar.Controls.Add(btnDashboard);
             pnlSidebar.Controls.Add(btnFees);
             pnlSidebar.Controls.Add(btnStudents);
@@ -48,6 +50,20 @@
             pnlSidebar.Name = "pnlSidebar";
             pnlSidebar.Size = new Size(220, 450);
             pnlSidebar.TabIndex = 0;
+            // 
+            // btnSettings
+            // 
+            btnSettings.Dock = DockStyle.Top;
+            btnSettings.FlatAppearance.BorderSize = 0;
+            btnSettings.FlatStyle = FlatStyle.Flat;
+            btnSettings.ForeColor = Color.White;
+            btnSettings.Location = new Point(0, 150);
+            btnSettings.Name = "btnSettings";
+            btnSettings.Size = new Size(220, 50);
+            btnSettings.TabIndex = 3;
+            btnSettings.Text = "⚙ Settings";
+            btnSettings.UseVisualStyleBackColor = true;
+            btnSettings.Click += btnSettings_Click;
             // 
             // btnDashboard
             // 
@@ -117,7 +133,7 @@
             Controls.Add(pnlHeader);
             Controls.Add(pnlSidebar);
             Name = "MainShellForm";
-            Text = "MainShellForm";
+            Text = "Annai Theresa Matriculation School - ATMS";
             pnlSidebar.ResumeLayout(false);
             ResumeLayout(false);
         }
@@ -130,5 +146,6 @@
         private Panel pnlContent;
         private Button btnDashboard;
         private Button btnFees;
+        private Button btnSettings;
     }
 }

@@ -73,14 +73,24 @@ namespace ATMS
                     args.SetObserved(); // Swallow the exception to prevent process termination
                 };
 
-                // Configure Dependency Injection
+                // Seed Default Users with BCrypt Hashes
+                ATMS.Data.DataSeeder.SeedDefaultUsers(dbConnection);
+
+                // Build DI Container
                 var services = new ServiceCollection();
+                services.AddSingleton<IConfiguration>(Configuration);
                 ConfigureServices(services, dbConnection);
                 ServiceProvider = services.BuildServiceProvider();
 
-                // Resolve the main form from the DI container and run it
-                var mainForm = ServiceProvider.GetRequiredService<MainShellForm>();
-                Application.Run(mainForm);
+                // Force Login before loading the Shell
+                var loginForm = ServiceProvider.GetRequiredService<LoginForm>();
+                Application.Run(loginForm);
+
+                if (loginForm.IsAuthenticated)
+                {
+                    var mainForm = ServiceProvider.GetRequiredService<MainShellForm>();
+                    Application.Run(mainForm);
+                }
             }
             catch (Exception ex)
             {
@@ -93,19 +103,19 @@ namespace ATMS
             }
         }
 
-        private static void ConfigureServices(
-            IServiceCollection services, string dbConnection)
+        private static void ConfigureServices(IServiceCollection services, string dbConnection)
         {
-            // Register Repositories
-            services.AddTransient<StudentRepository>(
-                provider => new StudentRepository(dbConnection));
-            services.AddTransient<FeeRepository>(
-                provider => new FeeRepository(dbConnection));
+            // Register Repositories & Services
+            services.AddTransient<StudentRepository>(p => new StudentRepository(dbConnection));
+            services.AddTransient<FeeRepository>(p => new FeeRepository(dbConnection));
+            services.AddTransient<ATMS.Data.Repositories.AuthService>(p => new ATMS.Data.Repositories.AuthService(dbConnection));
 
-            // Register Forms and UserControls
+            // Register Forms
+            services.AddTransient<LoginForm>();
             services.AddTransient<MainShellForm>();
             services.AddTransient<StudentManagementControl>();
             services.AddTransient<FeeCollectionControl>();
+            services.AddTransient<UserManagementControl>();
         }
 
         private static void PerformDatabaseUpgrade(string connectionString)

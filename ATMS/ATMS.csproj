@@ -14,6 +14,7 @@
     <None Remove="Migrations\003_clear_test_data.sql" />
     <None Remove="Migrations\004_academic_history.sql" />
     <None Remove="Migrations\005_rebuild_fee_tables.sql" />
+    <None Remove="Migrations\006_rbac_security.sql" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,9 +23,11 @@
     <EmbeddedResource Include="Migrations\003_clear_test_data.sql" />
     <EmbeddedResource Include="Migrations\004_academic_history.sql" />
     <EmbeddedResource Include="Migrations\005_rebuild_fee_tables.sql" />
+    <EmbeddedResource Include="Migrations\006_rbac_security.sql" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.2.0" />
     <PackageReference Include="Dapper" Version="2.1.89" />
     <PackageReference Include="dbup-postgresql" Version="7.0.1" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.14" />

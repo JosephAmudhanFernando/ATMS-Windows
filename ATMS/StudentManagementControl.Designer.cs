@@ -78,14 +78,14 @@
             // tableLayoutPanel1
             // 
             tableLayoutPanel1.ColumnCount = 8;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 12.5F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 12.5F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 12.5F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 12.5F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 12.5F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 12.5F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 12.5F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 12.5F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle());
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle());
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle());
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle());
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
             tableLayoutPanel1.Controls.Add(label1, 0, 0);
             tableLayoutPanel1.Controls.Add(txtAdmNo, 1, 0);
             tableLayoutPanel1.Controls.Add(label2, 2, 0);
@@ -129,343 +129,405 @@
             tableLayoutPanel1.Controls.Add(btnSave, 7, 5);
             tableLayoutPanel1.Dock = DockStyle.Top;
             tableLayoutPanel1.Location = new Point(0, 0);
+            tableLayoutPanel1.Margin = new Padding(20);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.Padding = new Padding(10);
             tableLayoutPanel1.RowCount = 6;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.6666679F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.6666679F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.6666679F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.6666679F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.6666679F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.6666679F));
             tableLayoutPanel1.Size = new Size(1000, 650);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.Right;
             label1.AutoSize = true;
-            label1.Location = new Point(3, 0);
+            label1.Location = new Point(13, 53);
             label1.Name = "label1";
             label1.Size = new Size(93, 17);
             label1.TabIndex = 0;
             label1.Text = "Admission No.";
+            label1.TextAlign = ContentAlignment.MiddleRight;
             // 
             // txtAdmNo
             // 
-            txtAdmNo.Location = new Point(128, 3);
+            txtAdmNo.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            txtAdmNo.Location = new Point(112, 49);
             txtAdmNo.Name = "txtAdmNo";
-            txtAdmNo.Size = new Size(100, 25);
+            txtAdmNo.Size = new Size(138, 25);
             txtAdmNo.TabIndex = 1;
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.Right;
             label2.AutoSize = true;
-            label2.Location = new Point(253, 0);
+            label2.Location = new Point(282, 53);
             label2.Name = "label2";
             label2.Size = new Size(71, 17);
             label2.TabIndex = 2;
             label2.Text = "First Name";
+            label2.TextAlign = ContentAlignment.MiddleRight;
             // 
             // txtFirst
             // 
-            txtFirst.Location = new Point(378, 3);
+            txtFirst.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            txtFirst.Location = new Point(359, 49);
             txtFirst.Name = "txtFirst";
-            txtFirst.Size = new Size(100, 25);
+            txtFirst.Size = new Size(138, 25);
             txtFirst.TabIndex = 3;
             // 
             // label3
             // 
+            label3.Anchor = AnchorStyles.Right;
             label3.AutoSize = true;
-            label3.Location = new Point(503, 0);
+            label3.Location = new Point(523, 53);
             label3.Name = "label3";
             label3.Size = new Size(70, 17);
             label3.TabIndex = 4;
             label3.Text = "Last Name";
+            label3.TextAlign = ContentAlignment.MiddleRight;
             // 
             // txtLast
             // 
-            txtLast.Location = new Point(628, 3);
+            txtLast.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            txtLast.Location = new Point(599, 49);
             txtLast.Name = "txtLast";
-            txtLast.Size = new Size(100, 25);
+            txtLast.Size = new Size(138, 25);
             txtLast.TabIndex = 5;
             // 
             // label4
             // 
+            label4.Anchor = AnchorStyles.Right;
             label4.AutoSize = true;
-            label4.Location = new Point(753, 0);
+            label4.Location = new Point(779, 53);
             label4.Name = "label4";
             label4.Size = new Size(62, 17);
             label4.TabIndex = 6;
             label4.Text = "EMIS No.";
+            label4.TextAlign = ContentAlignment.MiddleRight;
             // 
             // txtEmis
             // 
-            txtEmis.Location = new Point(878, 3);
+            txtEmis.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            txtEmis.Location = new Point(847, 49);
             txtEmis.Name = "txtEmis";
-            txtEmis.Size = new Size(100, 25);
+            txtEmis.Size = new Size(140, 25);
             txtEmis.TabIndex = 7;
             // 
             // label5
             // 
+            label5.Anchor = AnchorStyles.Right;
             label5.AutoSize = true;
-            label5.Location = new Point(3, 108);
+            label5.Location = new Point(79, 157);
             label5.Name = "label5";
             label5.Size = new Size(27, 17);
             label5.TabIndex = 8;
             label5.Text = "Std";
+            label5.TextAlign = ContentAlignment.MiddleRight;
             // 
             // cboStd
             // 
+            cboStd.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             cboStd.FormattingEnabled = true;
-            cboStd.Location = new Point(128, 111);
+            cboStd.Location = new Point(112, 153);
             cboStd.Name = "cboStd";
-            cboStd.Size = new Size(119, 25);
+            cboStd.Size = new Size(138, 25);
             cboStd.TabIndex = 9;
             // 
             // label6
             // 
+            label6.Anchor = AnchorStyles.Right;
             label6.AutoSize = true;
-            label6.Location = new Point(253, 108);
+            label6.Location = new Point(303, 157);
             label6.Name = "label6";
             label6.Size = new Size(50, 17);
             label6.TabIndex = 10;
             label6.Text = "Section";
+            label6.TextAlign = ContentAlignment.MiddleRight;
             // 
             // txtSec
             // 
-            txtSec.Location = new Point(378, 111);
+            txtSec.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            txtSec.Location = new Point(359, 153);
             txtSec.Name = "txtSec";
-            txtSec.Size = new Size(100, 25);
+            txtSec.Size = new Size(138, 25);
             txtSec.TabIndex = 11;
             // 
             // label7
             // 
+            label7.Anchor = AnchorStyles.Right;
             label7.AutoSize = true;
-            label7.Location = new Point(503, 108);
+            label7.Location = new Point(542, 157);
             label7.Name = "label7";
             label7.Size = new Size(51, 17);
             label7.TabIndex = 12;
             label7.Text = "Gender";
+            label7.TextAlign = ContentAlignment.MiddleRight;
             // 
             // cboGender
             // 
+            cboGender.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             cboGender.FormattingEnabled = true;
-            cboGender.Location = new Point(628, 111);
+            cboGender.Location = new Point(599, 153);
             cboGender.Name = "cboGender";
-            cboGender.Size = new Size(119, 25);
+            cboGender.Size = new Size(138, 25);
             cboGender.TabIndex = 13;
             // 
             // label8
             // 
+            label8.Anchor = AnchorStyles.Right;
             label8.AutoSize = true;
-            label8.Location = new Point(753, 108);
+            label8.Location = new Point(806, 157);
             label8.Name = "label8";
             label8.Size = new Size(35, 17);
             label8.TabIndex = 14;
             label8.Text = "Date";
+            label8.TextAlign = ContentAlignment.MiddleRight;
             // 
             // dtpDob
             // 
-            dtpDob.Location = new Point(878, 111);
+            dtpDob.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            dtpDob.Location = new Point(847, 153);
             dtpDob.Name = "dtpDob";
-            dtpDob.Size = new Size(119, 25);
+            dtpDob.Size = new Size(140, 25);
             dtpDob.TabIndex = 15;
             // 
             // label9
             // 
+            label9.Anchor = AnchorStyles.Right;
             label9.AutoSize = true;
-            label9.Location = new Point(3, 216);
+            label9.Location = new Point(49, 261);
             label9.Name = "label9";
             label9.Size = new Size(57, 17);
             label9.TabIndex = 16;
             label9.Text = "Aadhaar";
+            label9.TextAlign = ContentAlignment.MiddleRight;
             // 
             // txtAadhaar
             // 
-            txtAadhaar.Location = new Point(128, 219);
+            txtAadhaar.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            txtAadhaar.Location = new Point(112, 257);
             txtAadhaar.Name = "txtAadhaar";
-            txtAadhaar.Size = new Size(100, 25);
+            txtAadhaar.Size = new Size(138, 25);
             txtAadhaar.TabIndex = 17;
             // 
             // label10
             // 
+            label10.Anchor = AnchorStyles.Right;
             label10.AutoSize = true;
-            label10.Location = new Point(253, 216);
+            label10.Location = new Point(298, 261);
             label10.Name = "label10";
             label10.Size = new Size(55, 17);
             label10.TabIndex = 18;
             label10.Text = "Religion";
+            label10.TextAlign = ContentAlignment.MiddleRight;
             // 
             // txtReligion
             // 
-            txtReligion.Location = new Point(378, 219);
+            txtReligion.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            txtReligion.Location = new Point(359, 257);
             txtReligion.Name = "txtReligion";
-            txtReligion.Size = new Size(100, 25);
+            txtReligion.Size = new Size(138, 25);
             txtReligion.TabIndex = 19;
             // 
             // label11
             // 
+            label11.Anchor = AnchorStyles.Right;
             label11.AutoSize = true;
-            label11.Location = new Point(503, 216);
+            label11.Location = new Point(520, 261);
             label11.Name = "label11";
             label11.Size = new Size(73, 17);
             label11.TabIndex = 20;
             label11.Text = "Community";
+            label11.TextAlign = ContentAlignment.MiddleRight;
             // 
             // txtCommunity
             // 
-            txtCommunity.Location = new Point(628, 219);
+            txtCommunity.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            txtCommunity.Location = new Point(599, 257);
             txtCommunity.Name = "txtCommunity";
-            txtCommunity.Size = new Size(100, 25);
+            txtCommunity.Size = new Size(138, 25);
             txtCommunity.TabIndex = 21;
             // 
             // label12
             // 
+            label12.Anchor = AnchorStyles.Right;
             label12.AutoSize = true;
-            label12.Location = new Point(753, 216);
+            label12.Location = new Point(743, 261);
             label12.Name = "label12";
             label12.Size = new Size(98, 17);
             label12.TabIndex = 22;
             label12.Text = "Mother Tongue";
+            label12.TextAlign = ContentAlignment.MiddleRight;
             // 
             // txtMotherTongue
             // 
-            txtMotherTongue.Location = new Point(878, 219);
+            txtMotherTongue.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            txtMotherTongue.Location = new Point(847, 257);
             txtMotherTongue.Name = "txtMotherTongue";
-            txtMotherTongue.Size = new Size(100, 25);
+            txtMotherTongue.Size = new Size(140, 25);
             txtMotherTongue.TabIndex = 23;
             // 
             // label13
             // 
+            label13.Anchor = AnchorStyles.Right;
             label13.AutoSize = true;
-            label13.Location = new Point(3, 324);
+            label13.Location = new Point(23, 365);
             label13.Name = "label13";
             label13.Size = new Size(83, 17);
             label13.TabIndex = 24;
             label13.Text = "Father Name";
+            label13.TextAlign = ContentAlignment.MiddleRight;
             // 
             // txtFatherName
             // 
-            txtFatherName.Location = new Point(128, 327);
+            txtFatherName.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            txtFatherName.Location = new Point(112, 361);
             txtFatherName.Name = "txtFatherName";
-            txtFatherName.Size = new Size(100, 25);
+            txtFatherName.Size = new Size(138, 25);
             txtFatherName.TabIndex = 25;
             // 
             // label14
             // 
+            label14.Anchor = AnchorStyles.Right;
             label14.AutoSize = true;
-            label14.Location = new Point(253, 324);
+            label14.Location = new Point(269, 365);
             label14.Name = "label14";
             label14.Size = new Size(84, 17);
             label14.TabIndex = 26;
             label14.Text = "Father Phone";
+            label14.TextAlign = ContentAlignment.MiddleRight;
             // 
             // txtFatherPhone
             // 
-            txtFatherPhone.Location = new Point(378, 327);
+            txtFatherPhone.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            txtFatherPhone.Location = new Point(359, 361);
             txtFatherPhone.Name = "txtFatherPhone";
-            txtFatherPhone.Size = new Size(100, 25);
+            txtFatherPhone.Size = new Size(138, 25);
             txtFatherPhone.TabIndex = 27;
             // 
             // label15
             // 
+            label15.Anchor = AnchorStyles.Right;
             label15.AutoSize = true;
-            label15.Location = new Point(503, 324);
+            label15.Location = new Point(503, 365);
             label15.Name = "label15";
             label15.Size = new Size(90, 17);
             label15.TabIndex = 28;
             label15.Text = "Father Income";
+            label15.TextAlign = ContentAlignment.MiddleRight;
             // 
             // txtFatherIncome
             // 
-            txtFatherIncome.Location = new Point(628, 327);
+            txtFatherIncome.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            txtFatherIncome.Location = new Point(599, 361);
             txtFatherIncome.Name = "txtFatherIncome";
-            txtFatherIncome.Size = new Size(100, 25);
+            txtFatherIncome.Size = new Size(138, 25);
             txtFatherIncome.TabIndex = 29;
             // 
             // label16
             // 
+            label16.Anchor = AnchorStyles.Right;
             label16.AutoSize = true;
-            label16.Location = new Point(753, 324);
+            label16.Location = new Point(751, 365);
             label16.Name = "label16";
             label16.Size = new Size(90, 17);
             label16.TabIndex = 30;
             label16.Text = "Mother Name";
+            label16.TextAlign = ContentAlignment.MiddleRight;
             // 
             // txtMotherName
             // 
-            txtMotherName.Location = new Point(878, 327);
+            txtMotherName.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            txtMotherName.Location = new Point(847, 361);
             txtMotherName.Name = "txtMotherName";
-            txtMotherName.Size = new Size(100, 25);
+            txtMotherName.Size = new Size(140, 25);
             txtMotherName.TabIndex = 31;
             // 
             // label17
             // 
+            label17.Anchor = AnchorStyles.Right;
             label17.AutoSize = true;
-            label17.Location = new Point(3, 432);
+            label17.Location = new Point(15, 469);
             label17.Name = "label17";
             label17.Size = new Size(91, 17);
             label17.TabIndex = 32;
             label17.Text = "Mother Phone";
+            label17.TextAlign = ContentAlignment.MiddleRight;
             // 
             // txtMotherPhone
             // 
-            txtMotherPhone.Location = new Point(128, 435);
+            txtMotherPhone.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            txtMotherPhone.Location = new Point(112, 465);
             txtMotherPhone.Name = "txtMotherPhone";
-            txtMotherPhone.Size = new Size(100, 25);
+            txtMotherPhone.Size = new Size(138, 25);
             txtMotherPhone.TabIndex = 33;
             // 
             // label18
             // 
+            label18.Anchor = AnchorStyles.Right;
             label18.AutoSize = true;
-            label18.Location = new Point(253, 432);
+            label18.Location = new Point(256, 469);
             label18.Name = "label18";
             label18.Size = new Size(97, 17);
             label18.TabIndex = 34;
             label18.Text = "Mother Income";
+            label18.TextAlign = ContentAlignment.MiddleRight;
             // 
             // txtMotherIncome
             // 
-            txtMotherIncome.Location = new Point(378, 435);
+            txtMotherIncome.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            txtMotherIncome.Location = new Point(359, 465);
             txtMotherIncome.Name = "txtMotherIncome";
-            txtMotherIncome.Size = new Size(100, 25);
+            txtMotherIncome.Size = new Size(138, 25);
             txtMotherIncome.TabIndex = 35;
             // 
             // label19
             // 
+            label19.Anchor = AnchorStyles.Right;
             label19.AutoSize = true;
-            label19.Location = new Point(503, 432);
+            label19.Location = new Point(537, 469);
             label19.Name = "label19";
             label19.Size = new Size(56, 17);
             label19.TabIndex = 36;
             label19.Text = "Address";
+            label19.TextAlign = ContentAlignment.MiddleRight;
             // 
             // txtAddress
             // 
-            txtAddress.Location = new Point(628, 435);
+            txtAddress.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            txtAddress.Location = new Point(599, 465);
             txtAddress.Name = "txtAddress";
-            txtAddress.Size = new Size(100, 25);
+            txtAddress.Size = new Size(138, 25);
             txtAddress.TabIndex = 37;
             // 
             // label20
             // 
+            label20.Anchor = AnchorStyles.Right;
             label20.AutoSize = true;
-            label20.Location = new Point(753, 432);
+            label20.Location = new Point(769, 469);
             label20.Name = "label20";
             label20.Size = new Size(72, 17);
             label20.TabIndex = 38;
             label20.Text = "Certificates";
+            label20.TextAlign = ContentAlignment.MiddleRight;
             // 
             // txtCertificates
             // 
-            txtCertificates.Location = new Point(878, 435);
+            txtCertificates.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            txtCertificates.Location = new Point(847, 465);
             txtCertificates.Name = "txtCertificates";
-            txtCertificates.Size = new Size(100, 25);
+            txtCertificates.Size = new Size(140, 25);
             txtCertificates.TabIndex = 39;
             // 
             // btnSave
             // 
             btnSave.BackColor = Color.DarkSeaGreen;
-            btnSave.Location = new Point(878, 543);
+            btnSave.Location = new Point(847, 533);
             btnSave.Name = "btnSave";
             btnSave.Size = new Size(100, 23);
             btnSave.TabIndex = 40;

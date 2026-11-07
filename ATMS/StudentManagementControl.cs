@@ -24,7 +24,17 @@ namespace ATMS
         private async Task LoadStudentsAsync()
         {
             var students = await _repository.GetAllActiveAsync();
-            gridStudents.DataSource = students;
+
+            var displayList = students.Select(s => new StudentDisplayModel
+            {
+                AdmissionNo = s.AdmissionNo,
+                FullName = s.FullName,
+                Standard = s.Standard,
+                Section = s.Section,
+                FatherPhone = s.FatherContactNo
+            }).ToList();
+
+            gridStudents.DataSource = displayList;
         }
 
         private async Task SaveStudentAsync()
@@ -79,5 +89,15 @@ namespace ATMS
                 btnSave.Enabled = true;
             }
         }
+    }
+
+    // Add this class at the bottom of the file
+    public class StudentDisplayModel
+    {
+        public string AdmissionNo { get; set; }
+        public string FullName { get; set; }
+        public string Standard { get; set; }
+        public string Section { get; set; }
+        public string FatherPhone { get; set; }
     }
 }
