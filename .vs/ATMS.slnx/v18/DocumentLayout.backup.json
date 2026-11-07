@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\ATMS\\ATMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|c:\\atms\\atms\\atms\\mainshellform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|solutionrelative:atms\\mainshellform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|c:\\atms\\atms\\atms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|solutionrelative:atms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|c:\\atms\\atms\\atms\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|solutionrelative:atms\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|c:\\atms\\atms\\atms\\feecollectioncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|solutionrelative:atms\\feecollectioncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|c:\\atms\\atms\\atms\\studentmanagementcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|solutionrelative:atms\\studentmanagementcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|c:\\atms\\atms\\atms\\mainshellform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|solutionrelative:atms\\mainshellform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|c:\\atms\\atms\\atms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|solutionrelative:atms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|c:\\atms\\atms\\atms\\data\\repositories\\feerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,10 +59,6 @@
       "RelativeMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|solutionrelative:atms\\migrations\\003_clear_test_data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|c:\\atms\\atms\\atms\\studentmanagementcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|solutionrelative:atms\\studentmanagementcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|c:\\atms\\atms\\atms\\data\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|solutionrelative:atms\\data\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -57,14 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|c:\\atms\\atms\\atms\\migrations\\001_initial_schema.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|solutionrelative:atms\\migrations\\001_initial_schema.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|c:\\atms\\atms\\atms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|solutionrelative:atms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|c:\\atms\\atms\\atms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|solutionrelative:atms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|c:\\atms\\atms\\atms\\migrations\\003_clear_test_data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
@@ -95,58 +99,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FeeCollectionControl.cs",
-              "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\FeeCollectionControl.cs",
-              "RelativeDocumentMoniker": "ATMS\\FeeCollectionControl.cs",
-              "ToolTip": "C:\\ATMS\\ATMS\\ATMS\\FeeCollectionControl.cs",
-              "RelativeToolTip": "ATMS\\FeeCollectionControl.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA3wBYBAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-07T06:12:43.505Z",
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\README.md",
+              "RelativeDocumentMoniker": "ATMS\\README.md",
+              "ToolTip": "C:\\ATMS\\ATMS\\ATMS\\README.md",
+              "RelativeToolTip": "ATMS\\README.md",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowB8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-11-07T06:52:25.156Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FeeRepository.cs",
-              "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\Data\\Repositories\\FeeRepository.cs",
-              "RelativeDocumentMoniker": "ATMS\\Data\\Repositories\\FeeRepository.cs",
-              "ToolTip": "C:\\ATMS\\ATMS\\ATMS\\Data\\Repositories\\FeeRepository.cs",
-              "RelativeToolTip": "ATMS\\Data\\Repositories\\FeeRepository.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAUwFoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-07T06:02:48.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FeeLedger.cs",
-              "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\Core\\Models\\FeeLedger.cs",
-              "RelativeDocumentMoniker": "ATMS\\Core\\Models\\FeeLedger.cs",
-              "ToolTip": "C:\\ATMS\\ATMS\\ATMS\\Core\\Models\\FeeLedger.cs",
-              "RelativeToolTip": "ATMS\\Core\\Models\\FeeLedger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-07T06:01:29.328Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FeeHead.cs",
-              "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\Core\\Models\\FeeHead.cs",
-              "RelativeDocumentMoniker": "ATMS\\Core\\Models\\FeeHead.cs",
-              "ToolTip": "C:\\ATMS\\ATMS\\ATMS\\Core\\Models\\FeeHead.cs",
-              "RelativeToolTip": "ATMS\\Core\\Models\\FeeHead.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-07T06:01:08.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "AcademicYear.cs",
               "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\Core\\Models\\AcademicYear.cs",
               "RelativeDocumentMoniker": "ATMS\\Core\\Models\\AcademicYear.cs",
@@ -159,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "005_rebuild_fee_tables.sql ",
               "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\Migrations\\005_rebuild_fee_tables.sql",
               "RelativeDocumentMoniker": "ATMS\\Migrations\\005_rebuild_fee_tables.sql",
@@ -171,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "004_academic_history.sql ",
               "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\Migrations\\004_academic_history.sql",
               "RelativeDocumentMoniker": "ATMS\\Migrations\\004_academic_history.sql",
@@ -183,20 +148,111 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MainShellForm.cs",
               "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\MainShellForm.cs",
               "RelativeDocumentMoniker": "ATMS\\MainShellForm.cs",
               "ToolTip": "C:\\ATMS\\ATMS\\ATMS\\MainShellForm.cs",
               "RelativeToolTip": "ATMS\\MainShellForm.cs",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAUwJsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAYwKgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-05T12:58:52.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\Program.cs",
+              "RelativeDocumentMoniker": "ATMS\\Program.cs",
+              "ToolTip": "C:\\ATMS\\ATMS\\ATMS\\Program.cs",
+              "RelativeToolTip": "ATMS\\Program.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAxwGwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T13:59:09.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentManagementControl.cs",
+              "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\StudentManagementControl.cs",
+              "RelativeDocumentMoniker": "ATMS\\StudentManagementControl.cs",
+              "ToolTip": "C:\\ATMS\\ATMS\\ATMS\\StudentManagementControl.cs",
+              "RelativeToolTip": "ATMS\\StudentManagementControl.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T13:07:11.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\appsettings.json",
+              "RelativeDocumentMoniker": "ATMS\\appsettings.json",
+              "ToolTip": "C:\\ATMS\\ATMS\\ATMS\\appsettings.json",
+              "RelativeToolTip": "ATMS\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-04T13:47:13.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FeeHead.cs",
+              "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\Core\\Models\\FeeHead.cs",
+              "RelativeDocumentMoniker": "ATMS\\Core\\Models\\FeeHead.cs",
+              "ToolTip": "C:\\ATMS\\ATMS\\ATMS\\Core\\Models\\FeeHead.cs",
+              "RelativeToolTip": "ATMS\\Core\\Models\\FeeHead.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T06:01:08.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FeeCollectionControl.cs",
+              "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\FeeCollectionControl.cs",
+              "RelativeDocumentMoniker": "ATMS\\FeeCollectionControl.cs",
+              "ToolTip": "C:\\ATMS\\ATMS\\ATMS\\FeeCollectionControl.cs",
+              "RelativeToolTip": "ATMS\\FeeCollectionControl.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowBoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T06:12:43.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FeeLedger.cs",
+              "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\Core\\Models\\FeeLedger.cs",
+              "RelativeDocumentMoniker": "ATMS\\Core\\Models\\FeeLedger.cs",
+              "ToolTip": "C:\\ATMS\\ATMS\\ATMS\\Core\\Models\\FeeLedger.cs",
+              "RelativeToolTip": "ATMS\\Core\\Models\\FeeLedger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T06:01:29.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FeeRepository.cs",
+              "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\Data\\Repositories\\FeeRepository.cs",
+              "RelativeDocumentMoniker": "ATMS\\Data\\Repositories\\FeeRepository.cs",
+              "ToolTip": "C:\\ATMS\\ATMS\\ATMS\\Data\\Repositories\\FeeRepository.cs",
+              "RelativeToolTip": "ATMS\\Data\\Repositories\\FeeRepository.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAUwFoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T06:02:48.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "003_clear_test_data.sql ",
               "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\Migrations\\003_clear_test_data.sql",
               "RelativeDocumentMoniker": "ATMS\\Migrations\\003_clear_test_data.sql",
@@ -208,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "002_add_student_details.sql ",
               "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\Migrations\\002_add_student_details.sql",
               "RelativeDocumentMoniker": "ATMS\\Migrations\\002_add_student_details.sql",
@@ -220,19 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "StudentManagementControl.cs",
-              "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\StudentManagementControl.cs",
-              "RelativeDocumentMoniker": "ATMS\\StudentManagementControl.cs",
-              "ToolTip": "C:\\ATMS\\ATMS\\ATMS\\StudentManagementControl.cs",
-              "RelativeToolTip": "ATMS\\StudentManagementControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T13:07:11.963Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "StudentRepository.cs",
               "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\Data\\Repositories\\StudentRepository.cs",
               "RelativeDocumentMoniker": "ATMS\\Data\\Repositories\\StudentRepository.cs",
@@ -244,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\Core\\Models\\Student.cs",
               "RelativeDocumentMoniker": "ATMS\\Core\\Models\\Student.cs",
@@ -256,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "001_initial_schema.sql",
               "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\Migrations\\001_initial_schema.sql",
               "RelativeDocumentMoniker": "ATMS\\Migrations\\001_initial_schema.sql",
@@ -264,30 +308,6 @@
               "RelativeToolTip": "ATMS\\Migrations\\001_initial_schema.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2026-11-04T14:08:10.221Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\Program.cs",
-              "RelativeDocumentMoniker": "ATMS\\Program.cs",
-              "ToolTip": "C:\\ATMS\\ATMS\\ATMS\\Program.cs",
-              "RelativeToolTip": "ATMS\\Program.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAAAEsAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-04T13:59:09.677Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\appsettings.json",
-              "RelativeDocumentMoniker": "ATMS\\appsettings.json",
-              "ToolTip": "C:\\ATMS\\ATMS\\ATMS\\appsettings.json",
-              "RelativeToolTip": "ATMS\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-11-04T13:47:13.146Z"
             }
           ]
         }

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\ATMS\\ATMS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|c:\\atms\\atms\\atms\\studentmanagementcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|solutionrelative:atms\\studentmanagementcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|c:\\atms\\atms\\atms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|solutionrelative:atms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|c:\\atms\\atms\\atms\\feecollectioncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|solutionrelative:atms\\feecollectioncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|c:\\atms\\atms\\atms\\studentmanagementcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|solutionrelative:atms\\studentmanagementcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|c:\\atms\\atms\\atms\\mainshellform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,22 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|c:\\atms\\atms\\atms\\migrations\\001_initial_schema.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|solutionrelative:atms\\migrations\\001_initial_schema.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|c:\\atms\\atms\\atms\\migrations\\003_clear_test_data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|solutionrelative:atms\\migrations\\003_clear_test_data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|c:\\atms\\atms\\atms\\migrations\\004_academic_history.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|solutionrelative:atms\\migrations\\004_academic_history.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|c:\\atms\\atms\\atms\\migrations\\005_rebuild_fee_tables.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|solutionrelative:atms\\migrations\\005_rebuild_fee_tables.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|c:\\atms\\atms\\atms\\migrations\\002_add_student_details.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{26080D45-2B20-C7E6-9428-E0238399EF1E}|ATMS\\ATMS.csproj|solutionrelative:atms\\migrations\\002_add_student_details.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,11 +78,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "README.md",
               "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\README.md",
               "RelativeDocumentMoniker": "ATMS\\README.md",
@@ -106,8 +90,7 @@
               "RelativeToolTip": "ATMS\\README.md",
               "ViewState": "AgIAABUAAAAAAAAAAAAowB8AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-11-07T06:52:25.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-07T06:52:25.156Z"
             },
             {
               "$type": "Document",
@@ -119,32 +102,29 @@
               "RelativeToolTip": "ATMS\\Core\\Models\\AcademicYear.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-07T06:00:48.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-07T06:00:48.045Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "005_rebuild_fee_tables.sql ",
+              "Title": "005_rebuild_fee_tables.sql",
               "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\Migrations\\005_rebuild_fee_tables.sql",
               "RelativeDocumentMoniker": "ATMS\\Migrations\\005_rebuild_fee_tables.sql",
               "ToolTip": "C:\\ATMS\\ATMS\\ATMS\\Migrations\\005_rebuild_fee_tables.sql",
               "RelativeToolTip": "ATMS\\Migrations\\005_rebuild_fee_tables.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-11-07T05:27:20.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-07T05:27:20.995Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "004_academic_history.sql ",
+              "Title": "004_academic_history.sql",
               "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\Migrations\\004_academic_history.sql",
               "RelativeDocumentMoniker": "ATMS\\Migrations\\004_academic_history.sql",
               "ToolTip": "C:\\ATMS\\ATMS\\ATMS\\Migrations\\004_academic_history.sql",
               "RelativeToolTip": "ATMS\\Migrations\\004_academic_history.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-11-07T05:25:48.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-07T05:25:48.986Z"
             },
             {
               "$type": "Document",
@@ -156,8 +136,7 @@
               "RelativeToolTip": "ATMS\\MainShellForm.cs",
               "ViewState": "AgIAAJQAAAAAAAAAAAAYwKgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T12:58:52.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-05T12:58:52.916Z"
             },
             {
               "$type": "Document",
@@ -169,25 +148,24 @@
               "RelativeToolTip": "ATMS\\Program.cs",
               "ViewState": "AgIAAGoAAAAAAAAAAAAxwGwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-04T13:59:09.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-04T13:59:09.677Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "StudentManagementControl.cs",
               "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\StudentManagementControl.cs",
               "RelativeDocumentMoniker": "ATMS\\StudentManagementControl.cs",
               "ToolTip": "C:\\ATMS\\ATMS\\ATMS\\StudentManagementControl.cs",
               "RelativeToolTip": "ATMS\\StudentManagementControl.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAIwB0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-05T13:07:11.963Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\appsettings.json",
               "RelativeDocumentMoniker": "ATMS\\appsettings.json",
@@ -208,12 +186,11 @@
               "RelativeToolTip": "ATMS\\Core\\Models\\FeeHead.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-07T06:01:08.785Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-07T06:01:08.785Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FeeCollectionControl.cs",
               "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\FeeCollectionControl.cs",
               "RelativeDocumentMoniker": "ATMS\\FeeCollectionControl.cs",
@@ -221,8 +198,7 @@
               "RelativeToolTip": "ATMS\\FeeCollectionControl.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAowBoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-07T06:12:43.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-07T06:12:43.505Z"
             },
             {
               "$type": "Document",
@@ -234,8 +210,7 @@
               "RelativeToolTip": "ATMS\\Core\\Models\\FeeLedger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-07T06:01:29.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-07T06:01:29.328Z"
             },
             {
               "$type": "Document",
@@ -247,32 +222,29 @@
               "RelativeToolTip": "ATMS\\Data\\Repositories\\FeeRepository.cs",
               "ViewState": "AgIAADwAAAAAAAAAAAAUwFoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-07T06:02:48.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-07T06:02:48.433Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "003_clear_test_data.sql ",
+              "Title": "003_clear_test_data.sql",
               "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\Migrations\\003_clear_test_data.sql",
               "RelativeDocumentMoniker": "ATMS\\Migrations\\003_clear_test_data.sql",
               "ToolTip": "C:\\ATMS\\ATMS\\ATMS\\Migrations\\003_clear_test_data.sql",
               "RelativeToolTip": "ATMS\\Migrations\\003_clear_test_data.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-11-06T16:05:27.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-06T16:05:27.232Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "002_add_student_details.sql ",
+              "Title": "002_add_student_details.sql",
               "DocumentMoniker": "C:\\ATMS\\ATMS\\ATMS\\Migrations\\002_add_student_details.sql",
               "RelativeDocumentMoniker": "ATMS\\Migrations\\002_add_student_details.sql",
               "ToolTip": "C:\\ATMS\\ATMS\\ATMS\\Migrations\\002_add_student_details.sql",
               "RelativeToolTip": "ATMS\\Migrations\\002_add_student_details.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-11-06T15:59:29.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-06T15:59:29.526Z"
             },
             {
               "$type": "Document",
